@@ -1,0 +1,142 @@
+
+/* Here we will write all our CSS code to design our website */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #5F4B8BFF;
+    background-color: #d9beea;
+    font-family: 'Righteous', cursive;
+}
+
+.navbar{
+
+    width: 100%;
+    height: 70px;
+    /* background-color:#000000; */
+}
+
+.items{
+    width: 100%;
+    height: 70px;
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    align-items: center;
+    color: #5F4B8BFF;
+    padding-left: 13px;
+
+}
+
+li
+{
+    margin: 13px 7px;
+    padding: 8px 13px;
+    text-decoration: none;
+
+}
+
+.WebName{
+
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bolder;
+    font-size: 25px;
+}
+
+section{
+
+    width: 100%;
+    height: 100vh;
+    /* background-color: #000000; */
+}
+
+.Welcome {
+   margin: 0px auto;
+   padding: 10px 10px;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   text-align: center;
+   height: 40px;
+   width: 400px;
+
+}
+
+.addNote{
+
+    display: flex;
+    flex-direction: column;
+    margin-left: 60px;
+    margin-top: 30px;
+
+}
+.addNote textarea{
+
+    margin-top: 4px;
+    width: 40%;
+    height: 150px;
+    background-color: #5F4B8BFF;
+    border: 2px groove #000000;
+    border-color: rgb(88, 0, 146);
+    border-radius: 6px;
+    color:#E69A8DFF ;
+}
+
+.addNote button{
+    margin-top: 4px;
+    width: 80px;
+    height: 40px;
+    background-color:#5F4B8BFF;
+    color: #E69A8DFF;
+    border-radius: 10px;
+    border-color: rgb(88, 0, 146);
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+.yourNote{
+
+    display: flex;
+    flex-direction: column;
+    margin-left: 60px;
+    margin-top: 30px;
+
+}
+
+.yourNote div{
+
+    display:block;
+    margin-top: 4px;
+    width: auto; 
+    height: auto; 
+    background-color: #5F4B8BFF;
+    border: 2px groove #000000;
+    border-color: rgb(88, 0, 146);
+    border-radius: 6px;
+    color:#E69A8DFF;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.yourNote button{
+    margin-top: 4px;
+    width: 80px;
+    height: 40px;
+    background-color:#5F4B8BFF;
+    color: #E69A8DFF;
+    border-radius: 10px;
+    border-color: rgb(88, 0, 146);
+    font-weight:normal;
+    cursor: pointer;
+}
+
+.searchbar{
+    border: 2px groove black;
+    border-radius: 6px;
+    background-color:#5F4B8BFF ;
+    color:#E69A8DFF ;
+}
+
+form input placeholder
+{
+    color:#E69A8DFF ;
+}

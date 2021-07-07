@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>This is my 1st project using JS</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!--So today we will be making a Notes app which will be our 1st proper project which will be including all the three components which are HTML5,CSS3 and JS-->
+
+    <nav>
+        <!--So here will write the code for making the navbar of our website-->
+
+        <div class="navbar">
+            <ul class="items">
+                <li class="WebName">Nihar's Notes</li>
+                <li>Home</li>
+                <li>About</li>
+                <li>Suggestions</li>
+                <li><form action="#">
+                    <input class="searchbar" type="search" id="searchTxt" placeholder="Search Your Notes">
+                </form></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section>
+        <!--Here we will form cards and text areas for our web app-->
+
+        <div class="Welcome">
+            <h2>Welcome To Nihar's Notes</h2>
+        </div>
+
+        <div class="addNote">
+            <h4>Add A Note :</h4>
+            <textarea id="addTxt" cols="30" rows="10">Enter Your Notes</textarea>
+            <button id="addBtn">Add Note</button>
+        </div>
+
+       
+        <div class="yourNote">
+            <h3>Your Notes :</h3>
+            <p id="notes"></p>
+            <!-- <button>Delete Note</button> -->
+           
+        </div>
+
+      
+    </section>
+    <script src="app.js"></script>
+</body>
+
+</html>
